@@ -1,0 +1,63 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  justify-content: center;
+}
+
+/* Form input styles */
+.form__input {
+  width: 75%;
+  padding: 8px;
+  border: 2px solid black;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+}
+.form__input:hover {
+  background-color: #eeeeeee0;
+  border: 2px solid rgb(77, 17, 17);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.form__input-question {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.question-input {
+  margin-left: 4px;
+  width: 70%;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.type-select {
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+/* Error message styles */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+  .form__input {
+    width: 94%;
+  }
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wireframe</title>
+    <link rel="stylesheet" href="/all.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Form builder</h1>
+
+      <!-- First input section -->
+      <section class="question1">
+        <div class="form__input">
+          <div class="form__input-question">
+            <label for="question1">Question</label>
+            <input
+              type="text"
+              id="question1"
+              class="question-input"
+              placeholder="Are you a student?"
+            />
+          </div>
+          <div class="form__input-type">
+            <label for="type1">Type</label>
+            <select id="type1" class="type-select">
+              <option value="yesno">Yes/No</option>
+            </select>
+          </div>
+          <span id="question_1_error" class="error"></span>
+        </div>
+
+        <!-- Sub-question A -->
+        <div class="form__input">
+          <div class="form__input-question">
+            <label for="subquestion_A">Question</label>
+            <input
+              type="text"
+              id="subquestion_A"
+              class="question-input"
+              placeholder="What do you study?"
+            />
+          </div>
+          <div class="form__input-type">
+            <label for="subtype_A">Type</label>
+            <select id="subtype_A" class="type-select">
+              <option value="text">Text</option>
+            </select>
+          </div>
+          <span id="subquestion_A_error" class="error"></span>
+        </div>
+
+        <!-- Sub-question A1 -->
+        <div class="form__input">
+          <div class="form__input-question">
+            <label for="subquestion_A1">Question</label>
+            <input
+              type="text"
+              id="subquestion_A1"
+              class="question-input"
+              placeholder="What programming language is your best?"
+            />
+          </div>
+          <div class="form__input-type">
+            <label for="subtype_A1">Type</label>
+            <select id="subtype_A1" class="type-select">
+              <option value="text">Text</option>
+            </select>
+          </div>
+          <span id="subquestion_A1_error" class="error"></span>
+        </div>
+
+        <!--sub-question B-->
+        <div class="form__input">
+          <div class="form__input-question">
+            <label for="subquestion_B">Question</label>
+            <input
+              type="text"
+              id="subquestion_B"
+              class="question-input"
+              placeholder="How long do you study?"
+            />
+          </div>
+          <div class="form__input-type">
+            <label for="subtype_B">Type</label>
+            <select id="subtype_B" class="type-select">
+              <option value="number">Number</option>
+            </select>
+          </div>
+          <span id="subquestion_B_error" class="error"></span>
+        </div>
+
+        <!--sub-question B1_1-->
+        <div class="form__input">
+          <div class="form__input-question">
+            <label for="subquestion_B1_1">Question</label>
+            <input
+              type="text"
+              id="subquestion_B1_1"
+              class="question-input"
+              placeholder="Do you already have a degree?"
+            />
+          </div>
+          <div class="form__input-type">
+            <label for="subtype_B1_1">Type</label>
+            <select id="subtype_B1_1" class="type-select">
+              <option value="Type">Yes/No</option>
+            </select>
+          </div>
+          <span id="subquestion_B1_1_error" class="error"></span>
+        </div>
+
+        <!--sub-question B1_1_2-->
+        <div class="form__input">
+          <div class="form__input-question">
+            <label for="subquestion_B1_1_2">Question</label>
+            <input
+              type="text"
+              id="subquestion_B1_1_2"
+              class="question-input"
+              placeholder="Did you repeat a year?"
+            />
+          </div>
+          <div class="form__input-type">
+            <label for="subtype_B1_1_2">Type</label>
+            <select id="subtype_B1_1_2" class="type-select">
+              <option value="Type">Yes/No</option>
+            </select>
+          </div>
+        </div>
+        <span id="subquestion_B1_1_2_error" class="error"></span>
+      </section>
+
+      <!-- Second input section -->
+      <section class="question2">
+        <div class="form__input">
+          <div class="form__input-question">
+            <label for="question2">Question</label>
+            <input
+              type="text"
+              id="question2"
+              class="question-input"
+              placeholder="Which sport do you like?"
+            />
+          </div>
+          <div class="form__input-type">
+            <label for="type2">Type</label>
+            <select id="type2" class="type-select">
+              <option value="text">Text</option>
+            </select>
+          </div>
+          <span id="question2_error" class="error"></span>
+        </div>
+      </section>
+    </div>
+    <script src="./all.js"></script>
+  </body>
+</html>
