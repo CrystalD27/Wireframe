@@ -6,3 +6,6 @@
 
 ## Page 
 * https://crystald27.github.io/Wireframe/
+
+About Me:
+YiTing Gliniak / ytgliniak@gmail.com
